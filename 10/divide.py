@@ -9,8 +9,7 @@ def positive_divide(numerator, denominator):
         numerator = int(numerator)
         denominator = int(denominator)
     except TypeError:
-        if not isinstance(numerator, (int, float)) and not isinstance(denominator, (int, float)):
-            raise
+        raise
     else:
         return n
     finally:
