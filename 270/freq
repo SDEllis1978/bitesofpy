@@ -1,0 +1,7 @@
+def freq_digit(num: int) -> int:
+    from collections import Counter
+    count = 0
+   # frequency = Counter(str(num)).most_common(num)  #Count digits using Counter lib
+    for i in enumerate(num):
+
+
